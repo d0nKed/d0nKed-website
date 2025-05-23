@@ -1,0 +1,30 @@
+/* Import Inter Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+	font-family: Inter, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	overflow-x: hidden;
+	color-scheme: light dark;
+	color: rgba(255, 255, 255, 0.87);
+	background-color: white;
+	scroll-behavior: smooth;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+html {
+	transition: all 0.5s ease-in-out;
+}
+
+body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
